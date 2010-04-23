@@ -1,0 +1,1 @@
+sudo passenger-memory-stats | sed-uncolor | sed -n '/^-* Passenger processes -*$/,/^$/p'

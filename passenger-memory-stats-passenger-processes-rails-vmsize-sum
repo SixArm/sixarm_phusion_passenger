@@ -1,0 +1,2 @@
+sudo passenger-memory-stats-passenger-processes-rails | awk '{ sum += $2 }; END { print sum }'
+

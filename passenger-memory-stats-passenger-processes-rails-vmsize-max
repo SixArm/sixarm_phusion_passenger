@@ -1,0 +1,1 @@
+sudo passenger-memory-stats-passenger-processes-rails | awk '$2>m{m=$2}END{print m}'

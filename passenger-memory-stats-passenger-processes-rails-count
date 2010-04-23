@@ -1,0 +1,1 @@
+sudo passenger-memory-stats-passenger-processes-rails | wc -l

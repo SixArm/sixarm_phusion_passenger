@@ -1,0 +1,1 @@
+sudo passenger-memory-stats-apache-processes-apache | wc -l

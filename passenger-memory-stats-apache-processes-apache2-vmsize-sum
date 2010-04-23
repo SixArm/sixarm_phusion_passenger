@@ -1,0 +1,2 @@
+sudo passenger-memory-stats-apache-processes-apache2 | awk '{ sum += $3 }; END { print sum }'
+

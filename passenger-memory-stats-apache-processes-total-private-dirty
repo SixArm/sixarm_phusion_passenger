@@ -1,0 +1,1 @@
+sudo passenger-memory-stats-apache-processes | grep "Total private dirty" | sed 's/.*: //; s/ //;'
