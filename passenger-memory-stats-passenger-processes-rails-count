@@ -1,1 +1,17 @@
+#!/bin/sh
+#
+# Show Phusion Passenger memory statistics
+# for processes related to Ruby On Rails.
+#
+# Contact: joel@sixarm.com,  http://sixarm.com
+# License: your choice of any of MIT, BSD, GPL
+# Updated: 2010-11-19
+#
+# We use this script for our Nagios monitoring
+# of our web servers running Rails & Passenger.
+#
+# For more info on Passenger & Nagios:
+# Phusion Passenger: http://phusion.nl
+# Nagios monitoring: http://www.nagios.org
+
 sudo passenger-memory-stats-passenger-processes-rails | wc -l
