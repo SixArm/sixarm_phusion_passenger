@@ -1,1 +1,7 @@
-Phusion passenger-memory-stats helpers to show process information
+SixArm.com » Phusion Passenger
+
+Utilties for Phusion Passenger, the Ruby application server.
+
+See http://phusion.nl
+
+The passenger-memory-stats helpers show process information.
